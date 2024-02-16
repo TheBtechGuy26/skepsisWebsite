@@ -27,7 +27,14 @@ header{
 
 .navlist_css002 a{
     margin-left: 50px;
+    color: black;
+    font-weight: 500;
+    padding: 6px 15px;
+    border-radius: 20px;
     /* display: flex; */
+}
+.navlist_css002 a:hover {
+    background-color: aqua;
 }
 .navlist ul {
     list-style-type: none;
