@@ -12,7 +12,41 @@
 
 }
 
+header{
+    /* position: fixed; */
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 5%;
+    /* background: yellow; */
+}
 .header-left{
     display: flex;
-    align-item: center;
+    align-items: center;
+}
+
+.navlist_css002 a{
+    margin-left: 50px;
+    /* display: flex; */
+}
+.navlist ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navlist ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .navlist {
+        display: block; 
+    }
+    
+    .navlist ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
 }
